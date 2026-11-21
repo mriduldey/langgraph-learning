@@ -39,9 +39,9 @@ builder.add_edge("count_char", END)
 
 
 graph = builder.compile()
-# graph.get_graph().draw_mermaid_png(
-#     output_file_path="src\\langgraph_learning\\lesson_01_fundamentals\\3.multi_node.png"
-# )
+graph.get_graph().draw_mermaid_png(
+    output_file_path="src\\langgraph_learning\\lesson_01_fundamentals\\3.multi_node.png"
+)
 
 
 result = graph.invoke({"text": "  Hello Ira  "})
