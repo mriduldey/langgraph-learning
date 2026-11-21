@@ -47,4 +47,4 @@ graph = builder.compile()
 
 result = graph.invoke({"text": "  Hello Ira  "})
 
-print(result)
+print(result) 
