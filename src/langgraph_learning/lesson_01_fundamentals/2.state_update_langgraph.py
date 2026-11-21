@@ -27,9 +27,9 @@ builder.add_edge("format_text", END)
 graph = builder.compile()
 
 # Optional -> View graph
-graph.get_graph().draw_mermaid_png(
-    output_file_path="src\\langgraph_learning\\lesson_01_fundamentals\\state_update_langgraph.png"
-)
+# graph.get_graph().draw_mermaid_png(
+#     output_file_path="src\\langgraph_learning\\lesson_01_fundamentals\\state_update_langgraph.png"
+# )
 
 # 5. Execute the graph using the initial stage
 result = graph.invoke({"text": "Hello Ira"})
