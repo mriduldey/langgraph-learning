@@ -7,7 +7,9 @@ authors = [
     { name = "sudeshnadas96", email = "dassudeshna96@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langgraph>=1.2.23",
+]
 
 [project.scripts]
 langgraph-learning = "langgraph_learning:main"
